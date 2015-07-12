@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>评论区示例</title>
+<script src="http://res.edushi.com/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../js/comment.js" type="text/javascript"></script>
+
+<style type="text/css">
+.user-comments{ position:relative; padding:11px 26px; background:#f1f0ee; border-top:2px solid #343433; border-bottom:1px solid #cccbca;}
+#msg{ position:absolute; right:110px; bottom:20px; font-size:13px;}
+.comments-tit{ font-family:Microsoft YaHei; font-size:16px; font-weight:bold; color:#333;}
+
+.comments-area{ width:584px; height:70px; margin:10px 0; padding:5px 10px; background:#fffdf9; border:1px solid #aba9a7; font-family:SimSun; font-size:12px; line-height:20px; color:#898886;}
+.publist-tip{ font-size:12px; color:#808080; line-height:30px;}
+.publist-btn{ float:right;  width:79px; height:29px; background:url(../images/publish_btn.gif) no-repeat; border:0; cursor:pointer;}
+.comments-list dl{ margin:20px 10px 0 13px; padding:0 28px 10px; border-bottom:1px dotted #cccbca; *zoom:1;}
+.comments-list dl dt{ display:inline; float:left; width:50px;}
+.comments-list dl dt img{ width:50px; height:50px;}
+.comments-list dl dd{ display:inline; float:right; width:518px; line-height:20px;}
+
+</style>
+</head>
+<body>
+<div style="width:660px;">
+<div class="user-comments">
+        	<p class="comments-tit">网友评论</p>
+            <div id="msg" style=" display:none;"></div>
+            <textarea name="TxtContent" id="TxtContent" class="comments-area" onfocus="if(this.value == '文明上网，不传谣言'){this.value='';}" onblur="if(this.value == ''){this.value = '文明上网，不传谣言'}">文明上网，不传谣言</textarea>
+            <p class="clr" style="*zoom:1;">
+            	<input type="button" class="publist-btn" onclick="SubmitGuestBook();">
+            	<input type="hidden" id="hidCount" value="0" >
+            	<input type="hidden" id="hidUrl" value="http://beijing.edushi.com/bang/" >
+            	<input type="hidden" id="hidID" value="1859193" >
+            	<span class="publist-tip">网友评论仅供其表达个人看法，并不表明E都市立场。</span>
+            </p>
+</div>
+</div>
+</body>
+</html>

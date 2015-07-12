@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+a {text-decoration:none;}
+#footer{text-align:center; color:#333; font-size:15px; margin:40px 0 15px 0;}
+.container{width:768px; margin:0;}
+.topnav{ margin-left:220px}
+.topnav li{ list-style:none; text-align:center; margin:0 10px 10px 0; float:left;}
+.topnav li a{ text-decoration:none; color:#1874CD;}
+.loginpage{width:500px; margin-top:40px; text-align:right;}
+.loginsubmit {width:80px; height:25px; margin-top:5px; margin-right:80px; }
+.submit {margin-left:250px; width:80px; height:25px; margin-top:5px;}
+.title {width:500px; height:22px; padding-left:5px; margin-bottom:10px; }
+.content_title {vertical-align:top; }
+.postcontent{ width:580px; margin-top:5px; }
+.inputpostcontent {}
+.username {margin-left:50px; }
+.regpage{width:200px; margin-top:40px; margin-left:300px;}
+.regpage p{font-size:14px; color:#666; }
+.regsubmit {width:190px; height:25px; margin-top:5px; margin-right:80px; }
+.p error{color:red; }
+.subjectlist{margin:0 0 0 30px; width:738px; }
+.postlisthead{width:738px; background-color:#e5e5e5; height:30px;}
+.plhtitle{line-height:30px; width:48px; padding-left:10px; float:left; }
+.posttitle{color:#0080c0; line-height:30px; width:540px; height:30px; text-align:left; float:left; overflow:hidden;}
+.posttitle a{text-decoration:none; color:#0080c0; }
+.readinfo{ border-left:dotted 1px #999; margin-top:5px; width:69px; text-align:center; font-size:15px; line-height:20px; float:left;}
+.postlistfooter{ margin:5px 0 0 30px; padding:3px 0 0 25px; color:#666; height:10px; font-size:13px; }
+.changepage{width:738px; margin:20px 0 0 30px; text-align:center;}
+.currentPage {color:#000; font-size:16px;}
+.goPage {height:15px; width:38px;}
+.subjectpost {margin:0 0 0 30px; border:1px solid #ccc; width:736px; }
+.posthead{width:736px; background-color:#e5e5e5; height:50px;}
+.topictitle {margin:8px 0 5px 20px; height:45px; line-height:35px; width:550px; height:30px; font-family:"Microsoft Yahei"; font-size:17px; text-align:left; float:left; overflow:hidden;}
+.postheadinfo {height:18px; width:60px; float:left; margin:3px 0 0 10px; font-size:12px; color:#666;}
+.titlereplybtn {float:right; margin:0 15px 0 5px;}
+.postcontent{padding:10px 8px 10px 15px; width:713px; }
+.postfooter{width:703px; padding:20px 18px 5px 15px; font-size:13px;}
+.pfooterright{float:right; color:#999;}
+.pfooterright a:visited{color:blue;}
+.replydiv{margin:20px 0 10px 30px; }
+.inputreplytitle{float:left; margin:10px 0 0 8px;}
+.inputreplycontent { margin:10px 0 0 0;}
+.submitreply { margin-left:56px; width:80px; height:25px; margin-top:5px;}
+.replypost { margin:0 0 0 30px; border:1px solid #ccc; width:736px; word-wrap:break-word; }
+.topPaginate {}
+.topChangeReplyPage { margin-left:30px; text-align:center; float:right;}
+.changeReplyPage {margin:20px 0 0 30px; text-align:center; float:right;}
+.currentReplyPage { margin:6px 0 0 30px; color:#444; font-size:14px; float:left;}
+.replyPageList { margin:0 0 0 5px; padding:0px; float:left;}
+.replyPageList li { list-style:none; text-align:center; margin:0 0 0 5px; float:left;} 
+.nextReplyPage { float:left; margin-left:10px;}
+.linkReplyPage {text-align:center; border:1px solid #ccc; padding:3px 9px 3px 9px; background-color:#fff; cursor:pointer; }
+.noLinkReplyPage {background-color:#ff6900; color:#fff; padding:3px 0 3px 0; text-align:center; width:28px; border:1px solid #ccc;}

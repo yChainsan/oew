@@ -1,0 +1,3 @@
+1.Date: 15-06-22
+  第三项仍需完善的地方：回复贴若超过10页，末尾显示由“下一页”改为“下10页”
+  set the "endPage" to make users easy to go to the end.
